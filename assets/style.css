@@ -6,6 +6,7 @@ body{
     margin: 75px 100px 20px 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background: #EFABFF;
 }
 .content_1,.content_2,.content_3,.content_4,.content_5,.content_6{
     position: relative;
@@ -15,7 +16,8 @@ body{
     gap: 20px;
     width: auto;
     height: 190px;
-    border: dotted 2px black;
+    background: rgb(237, 162, 242);
+    box-shadow: 12px 12px 2px 1px rgb(224, 137, 248);
 }
 .box_content{
     margin: auto;
@@ -42,7 +44,7 @@ body{
     height: 25px;
     background: black;
     justify-content: center;
-    animation: box3Secouer  1s alternate-reverse infinite ease-out;
+    animation: box3 1s alternate-reverse infinite ease-out;
 }
 .box_content_1_2{
     position: relative;
@@ -51,7 +53,7 @@ body{
     height: 25px;
     background: black;
     justify-content: center;
-    animation: box3Secouer 2s alternate-reverse infinite ease-in;
+    animation: box3 2s alternate-reverse infinite ease-in;
 }
 .box_content_1_3{
     position: relative;
@@ -60,10 +62,10 @@ body{
     height: 25px;
     background: black;
     justify-content: center;
-    animation: box3Secouer 3s alternate-reverse infinite ease-in;
+    animation: box3 3s alternate-reverse infinite ease-in;
 }
 
-@keyframes box3Secouer {
+@keyframes box3 {
     0%{
         background: transparent;
         border: solid 1px black;
@@ -216,6 +218,7 @@ body{
        width: auto;
     }
     .content_1,.content_2,.content_3,.content_4,.content_5,.content_6{
+       margin: 20px 10px 20px 10px;
        padding: 10px 20px 10px 20px;
        width: auto;
     }
@@ -258,6 +261,7 @@ body{
        width: auto;
     }
     .content_1,.content_2,.content_3,.content_4,.content_5,.content_6{
+        margin: 20px 10px 20px 10px;
         padding: 10px 20px 10px 20px;
         width: auto;
      }
@@ -271,6 +275,7 @@ body{
         width: auto;
      }
      .content_1,.content_2,.content_3,.content_4,.content_5,.content_6{
+        margin: 20px 10px 20px 10px;
         padding: 10px 20px 10px 20px;
         justify-content: center;
         width: auto;
@@ -285,8 +290,8 @@ body{
         width: auto;
      }
      .content_1,.content_2,.content_3,.content_4,.content_5,.content_6{
+        margin: 20px 10px 20px 10px;
         padding: 10px 20px 10px 20px;
-        justify-content: center;
         width: auto;
      }
 }
